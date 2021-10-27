@@ -1,1 +1,11 @@
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Maria', '58335325073', 3650.90, TIMESTAMP WITH TIME ZONE '2001-07-19T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Maria Silva', '58335325073', 3650.90, TIMESTAMP WITH TIME ZONE '2001-07-19T10:00:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Paulo Cleber', '97430195024', 6550.90, TIMESTAMP WITH TIME ZONE '2000-12-18T15:50:00Z', 1, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('João Miguel', '99077411089', 3230.90, TIMESTAMP WITH TIME ZONE '1991-12-07T05:43:00Z', 3, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Dulce Costa', '62942591005', 1850.90, TIMESTAMP WITH TIME ZONE '1996-05-24T16:06:00Z', 1, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Jefferson Nogueira', '46135241052', 2630.90, TIMESTAMP WITH TIME ZONE '1992-01-02T13:12:00Z', 1, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Antonio Silvio', '75875746033', 3964.90, TIMESTAMP WITH TIME ZONE '2003-02-17T19:14:00Z', 4, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Plinio Souza', '80368026000', 5612.90, TIMESTAMP WITH TIME ZONE '2002-03-15T03:34:00Z', 3, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Marcio Junior', '70782156053', 7895.90, TIMESTAMP WITH TIME ZONE '1998-10-13T14:37:00Z', 3, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Alexander Carvalho', '67357031039', 4512.90, TIMESTAMP WITH TIME ZONE '1999-11-22T22:02:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Livia Monteiro', '58091042078', 6591.90, TIMESTAMP WITH TIME ZONE '1995-04-25T08:12:00Z', 1, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Jose Cerato', '26553197024', 1654.90, TIMESTAMP WITH TIME ZONE '2002-04-18T23:39:00Z', 4, NOW());
